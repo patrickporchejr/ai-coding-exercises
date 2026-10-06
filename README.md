@@ -55,16 +55,30 @@ Exercises 1–3, 11 and 12 call the Claude API, so you need an [Anthropic API ke
 
 ## Models and cost
 
-Following the Anthropic Academy course:
+Each model job is set in your `.env` (see `.env.example`), so you can choose your own tradeoff between cost and accuracy. The defaults follow the Anthropic Academy course:
 
-| Job | Model | Price per million tokens (input / output) |
+| `.env` setting | Job | Default |
 |---|---|---|
-| Prompts under test and LLM judges | Claude Opus 5.5 (`claude-opus-5-5`) | $4 / $20 |
-| Generating test datasets | Claude Haiku 4.5 (`claude-haiku-4-5`) | $1 / $5 |
+| `MODEL` | The prompt under test, and the agent in exercise 12 | `claude-opus-5-5` |
+| `JUDGE_MODEL` | LLM judges (model graders) | `claude-opus-5-5` |
+| `DATASET_MODEL` | Generating test datasets | `claude-haiku-4-5` |
 
-Generation is cheap work that you review by hand anyway. Grading and the prompt under test are where accuracy matters, so they get the strongest model.
+Generating datasets is cheap work that you review by hand anyway. Grading and the prompt under test are where accuracy matters.
 
-Rough spend to work through the repo, assuming default settings, the dataset sizes given, and about 10 runs per exercise while you debug:
+### Model options
+
+| Model | ID | Price per million tokens (input / output) | Good for |
+|---|---|---|---|
+| Claude Fable 5.1 | `claude-fable-5-1` | $10 / $50 | The most capable model. Usually more than these exercises need. |
+| Claude Opus 5.5 | `claude-opus-5-5` | $4 / $20 | The default: accurate judges and a realistic system under test. |
+| Claude Sonnet 5.5 | `claude-sonnet-5-5` | $2 / $10 | About half the cost of Opus, and a solid judge. |
+| Claude Haiku 4.5 | `claude-haiku-4-5` | $1 / $5 | Dataset generation and cheap practice runs. |
+
+**API rules differ by model.** Fable 5.1, Opus 5.5 and Sonnet 5.5 reject assistant prefill, forced `tool_choice` (`any` or a specific tool), and `budget_tokens` thinking. Opus 5.5 and Fable 5.1 also reject `temperature`, and Sonnet 5.5 only accepts its default value. **Haiku 4.5 follows the older rules and accepts all of these.** Use structured outputs and `tool_choice: auto` so your code works on every model.
+
+Exercise 3's traps were checked with Opus 5.5. Other models make different mistakes, so your v1 vs. v2 comparison will differ if you change `MODEL`.
+
+Rough spend with the default models, assuming the dataset sizes given, and about 10 runs per exercise while you debug:
 
 | Exercise | One full run | While learning |
 |---|---|---|
@@ -75,6 +89,8 @@ Rough spend to work through the repo, assuming default settings, the dataset siz
 | 12. Tool-use agent (10 tasks) | ~$1.00 | $5–12 |
 | 4–10 | No API calls | $0 |
 | **Total** | | **about $15–40** |
+
+With every model set to Sonnet 5.5, expect roughly half that. With Fable 5.1 for `MODEL` and `JUDGE_MODEL`, roughly 2.5 times as much.
 
 To keep it down:
 - **Develop on 2–3 cases** and run the full set only when the pipeline works.

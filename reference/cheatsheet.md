@@ -21,13 +21,16 @@ The functions the course builds, in order:
 ## Current API: basic call
 
 ```python
+import os
 from dotenv import load_dotenv
 import anthropic
 
 load_dotenv()
 client = anthropic.Anthropic()
-MODEL = "claude-opus-5-5"            # prompt under test and LLM judges
-DATASET_MODEL = "claude-haiku-4-5"   # generating test datasets (cheap; you review the cases anyway)
+# Set in .env. See "Models and cost" in the README.
+MODEL = os.getenv("MODEL", "claude-opus-5-5")                    # prompt under test
+JUDGE_MODEL = os.getenv("JUDGE_MODEL", "claude-opus-5-5")        # LLM judges
+DATASET_MODEL = os.getenv("DATASET_MODEL", "claude-haiku-4-5")   # generating test datasets
 
 def chat(prompt: str, system: str | None = None, model: str = MODEL) -> str:
     kwargs = {"system": system} if system else {}
@@ -62,7 +65,7 @@ class Grade(BaseModel):
     score: int = Field(description="1-10")
 
 resp = client.messages.parse(
-    model=MODEL,
+    model=JUDGE_MODEL,
     max_tokens=4000,
     messages=[{"role": "user", "content": judge_prompt}],
     output_format=Grade,

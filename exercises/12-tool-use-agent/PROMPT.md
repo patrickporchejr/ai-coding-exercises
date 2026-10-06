@@ -27,7 +27,7 @@
 - Rebuild it with the SDK's tool runner and compare the amount of code and the control you keep.
 
 ## Things that commonly trip people up
-- **Forced tool use isn't available on current models.** Setting `tool_choice` to `{"type": "any"}` or to a specific tool returns a 400 on Claude Opus 5.5. Use `auto` and say in the prompt what you expect.
+- **Forced tool use isn't available on current models.** Setting `tool_choice` to `{"type": "any"}` or to a specific tool returns a 400 on Opus 5.5, Sonnet 5.5 and Fable 5.1 (Haiku 4.5 still allows it). Use `auto` and say in the prompt what you expect.
 - **Pass back everything.** When you send Claude's turn back in the next request, include the full response content, not just the text. Leave earlier turns unedited.
 - **Parallel calls.** Claude can request several tools in one turn. Their results go back together in a single message.
 
