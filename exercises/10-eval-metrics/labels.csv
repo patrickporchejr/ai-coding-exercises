@@ -1,0 +1,301 @@
+id,text,model_label,annotator_a,annotator_b
+t001,Let me export reports as PDF,feature_request,feature_request,feature_request
+t002,How do I change my email address?,account,account,account
+t003,Can I get a refund for my annual plan?,billing,billing,billing
+t004,Could the API return more than 100 items?,feature_request,feature_request,bug
+t005,Would love keyboard shortcuts,feature_request,account,feature_request
+t006,Let me export reports as PDF,feature_request,feature_request,feature_request
+t007,Why did my price go up?,billing,billing,billing
+t008,Billing page throws a 500 when I try to update my card,bug,bug,bug
+t009,How do I change my email address?,account,bug,other
+t010,Would love keyboard shortcuts,feature_request,feature_request,feature_request
+t011,Would love keyboard shortcuts,feature_request,feature_request,
+t012,Please delete my account,billing,account,account
+t013,App crashes when I upload a PNG,bug,account,bug
+t014,The dashboard chart is blank since the update,feature_request,bug,bug
+t015,Please add a Slack integration,other,feature_request,feature_request
+t016,I was charged twice this month,billing,billing,billing
+t017,How do I add a teammate?,account,account,account
+t018,Notifications arrive twice,bug,bug,bug
+t019,Could the API return more than 100 items?,feature_request,feature_request,bug
+t020,How do I change my email address?,account,account,billing
+t021,Would love keyboard shortcuts,feature_request,feature_request,feature_request
+t022,Let me export reports as PDF,feature_request,feature_request,other
+t023,Transfer ownership of my workspace,account,account,account
+t024,Could the API return more than 100 items?,feature_request,feature_request,feature_request
+t025,Why did my price go up?,billing,billing,billing
+t026,Need a receipt for March,billing,billing,billing
+t027,Search returns results from deleted projects,bug,bug,other
+t028,Dark mode text is unreadable on Safari,bug,bug,billing
+t029,Notifications arrive twice,bug,bug,bug
+t030,Can I get a refund for my annual plan?,billing,billing,billing
+t031,Why did my price go up?,billing,billing,billing
+t032,Can I get a refund for my annual plan?,billing,billing,billing
+t033,Please delete my account,billing,account,account
+t034,Dark mode text is unreadable on Safari,bug,bug,bug
+t035,The card on file was declined but I was still charged,billing,billing,billing
+t036,Why did my price go up?,billing,billing,billing
+t037,Please delete my account,billing,account,Account
+t038,Transfer ownership of my workspace,account,account,feature_request
+t039,Would love keyboard shortcuts,feature_request,billing,feature_request
+t040,Please delete my account,billing,account,account
+t041,Why did my price go up?,other,account,feature_request
+t042,I can't log in after resetting my password,account,account,account
+t043,I was charged twice this month,billing,billing,billing
+t044,The card on file was declined but I was still charged,billing,,billing
+t045,Could the API return more than 100 items?,feature_request,feature_request,feature_request
+t046,Can you support SSO with Okta?,feature_request,bug,
+t047,Export to CSV does nothing,bug,bug,bug
+t048,Dark mode text is unreadable on Safari,bug,bug,bug
+t049,Can I get a refund for my annual plan?,billing,billing,billing
+t050,I was charged twice this month,billing,billing,billing
+t051,Export to CSV does nothing,bug,bug,bug
+t052,Need a receipt for March,billing,Billing ,billing
+t053,Dark mode text is unreadable on Safari,bug,bug,bug
+t054,My invoice shows the wrong VAT number,billing,billing,billing
+t055,Please delete my account,billing,account,account
+t056,Transfer ownership of my workspace,account,,account
+t057,How do I add a teammate?,account,account,account
+t058,The dashboard chart is blank since the update,bug,bug,bug
+t059,I can't log in after resetting my password,account,account,account
+t060,Search returns results from deleted projects,feature_request,bug,other
+t061,Search returns results from deleted projects,bug,bug,bug
+t062,Export to CSV does nothing,feature_request,bug,bug
+t063,Notifications arrive twice,billing,bug,other
+t064,How do I add a teammate?,account,account,account
+t065,I can't log in after resetting my password,billing,account,account
+t066,Just saying thanks to the support team,other,other,other
+t067,Export to CSV does nothing,feature_request,bug,bug
+t068,I'd like to pay by invoice instead of credit card,billing,billing,billing
+t069,Search returns results from deleted projects,bug,bug,bug
+t070,How do I add a teammate?,account,account,other
+t071,Export to CSV does nothing,feature_request,account,bug
+t072,Are you hiring?,bug,other,other
+t073,Transfer ownership of my workspace,account,account,account
+t074,Let me export reports as PDF,feature_request,,bug
+t075,Let me export reports as PDF,feature_request,feature_request,feature_request
+t076,The card on file was declined but I was still charged,billing,billing,billing
+t077,Can I get a refund for my annual plan?,billing,billing,
+t078,Let me export reports as PDF,feature_request,feature_request,
+t079,App crashes when I upload a PNG,bug,bug,bug
+t080,Search returns results from deleted projects,bug,bug,bug
+t081,Export to CSV does nothing,bug,bug,bug
+t082,App crashes when I upload a PNG,bug,bug,bug
+t083,Could the API return more than 100 items?,feature_request,feature_request,feature_request
+t084,Can I get a refund for my annual plan?,billing,billing,bug
+t085,Search returns results from deleted projects,bug,billing,bug
+t086,Dark mode text is unreadable on Safari,bug,bug,bug
+t087,Please delete my account,account,account,account
+t088,Could the API return more than 100 items?,feature_request,feature_request,feature_request
+t089,Dark mode text is unreadable on Safari,bug,bug,account
+t090,Where is your office located?,other,other,other
+t091,Notifications arrive twice,bug,bug,bug
+t092,Please delete my account,account,account,account
+t093,Would love keyboard shortcuts,feature_request,feature_request,feature_request
+t094,Notifications arrive twice,bug,bug,bug
+t095,My invoice shows the wrong VAT number,billing,billing,billing
+t096,Two-factor codes aren't arriving,billing,account,account
+t097,Dark mode text is unreadable on Safari,bug,bug,bug
+t098,Search returns results from deleted projects,bug,bug,bug
+t099,Where is your office located?,other,other,other
+t100,Would love keyboard shortcuts,other,feature_request,bug
+t101,Need a receipt for March,billing,billing,billing
+t102,Please add a Slack integration,feature_request,feature_request,feature_request
+t103,App crashes when I upload a PNG,bug,bug,bug
+t104,The card on file was declined but I was still charged,billing,billing,billing
+t105,Dark mode text is unreadable on Safari,bug,bug,bug
+t106,Notifications arrive twice,bug,bug,bug
+t107,Who should I talk to about a partnership?,other,other,other
+t108,How do I add a teammate?,account,account,account
+t109,Search returns results from deleted projects,bug,bug,bug
+t110,Would love keyboard shortcuts,feature_request,feature_request,feature_request
+t111,App crashes when I upload a PNG,bug,bug,bug
+t112,Need a receipt for March,account,account,billing
+t113,Please add a Slack integration,feature_request,other,feature_request
+t114,The card on file was declined but I was still charged,billing,billing,billing
+t115,How do I add a teammate?,account,account,Account
+t116,Please add a Slack integration,other,feature_request,feature_request
+t117,Why did my price go up?,billing,billing,billing
+t118,My invoice shows the wrong VAT number,billing,billing,billing
+t119,App crashes when I upload a PNG,bug,bug,feature_request
+t120,How do I add a teammate?,account,account,Account
+t121,Where is your office located?,other,bug,other
+t122,How do I change my email address?,billing,account,account
+t123,Notifications arrive twice,other,bug,
+t124,I was charged twice this month,billing,billing,billing
+t125,The card on file was declined but I was still charged,other,billing,billing
+t126,I can't log in after resetting my password,account,account,billing
+t127,Transfer ownership of my workspace,account,account,billing
+t128,Billing page throws a 500 when I try to update my card,bug,bug,feature_request
+t129,How do I add a teammate?,account,,account
+t130,Can I get a refund for my annual plan?,billing,billing,billing
+t131,Export to CSV does nothing,bug,bug,bug
+t132,Let me export reports as PDF,bug,feature_request,feature_request
+t133,Export to CSV does nothing,bug,bug,bug
+t134,Love the new design!,other,other,other
+t135,Export to CSV does nothing,bug,bug,bug
+t136,Why did my price go up?,billing,account,billing
+t137,App crashes when I upload a PNG,bug,bug,bug
+t138,My invoice shows the wrong VAT number,billing,billing,billing
+t139,Transfer ownership of my workspace,billing,account,account
+t140,Please delete my account,account,account,account
+t141,Can I get a refund for my annual plan?,billing,billing,billing
+t142,Transfer ownership of my workspace,account,account,account
+t143,Search returns results from deleted projects,bug,bug,bug
+t144,Need a receipt for March,billing,billing,billing
+t145,Just saying thanks to the support team,other,other,other
+t146,I can't log in after resetting my password,account,account,account
+t147,Notifications arrive twice,feature_request,bug,bug
+t148,I was charged twice this month,billing,billing,billing
+t149,Could the API return more than 100 items?,other,feature_request,feature_request
+t150,I can't log in after resetting my password,account,account,account
+t151,Could the API return more than 100 items?,feature_request,feature_request,feature_request
+t152,I can't log in after resetting my password,account,account,account
+t153,Need a receipt for March,billing,billing,billing
+t154,Add a way to bulk-edit tags,feature_request,feature_request,bug
+t155,Where is your office located?,other,other,other
+t156,Why did my price go up?,billing,billing,billing
+t157,Export to CSV does nothing,bug,bug,bug
+t158,Export to CSV does nothing,bug,bug,bug
+t159,Would love keyboard shortcuts,feature_request,feature_request,feature_request
+t160,Dark mode text is unreadable on Safari,bug,bug,bug
+t161,Dark mode text is unreadable on Safari,bug,,feature_request
+t162,I was charged twice this month,billing,billing,billing
+t163,How do I change my email address?,account,account,account
+t164,Why did my price go up?,billing,billing,billing
+t165,My invoice shows the wrong VAT number,billing,billing,billing
+t166,Why did my price go up?,billing,billing,bug
+t167,Could the API return more than 100 items?,feature_request,bug,feature_request
+t168,How do I add a teammate?,billing,account,account
+t169,Please add a Slack integration,other,feature_request,bug
+t170,Love the new design!,feature_request,other,account
+t171,My invoice shows the wrong VAT number,billing,billing,billing
+t172,The card on file was declined but I was still charged,billing,billing,billing
+t173,Need a receipt for March,bug,billing,billing
+t174,Please add a Slack integration,feature_request,feature_request,feature_request
+t175,Need a receipt for March,billing,billing,billing
+t176,Just saying thanks to the support team,other,other,other
+t177,Need a receipt for March,feature_request,bug,billing
+t178,Let me export reports as PDF,feature_request,,feature_request
+t179,Love the new design!,other,other,other
+t180,Transfer ownership of my workspace,account,account,account
+t181,Are you hiring?,other,OTHER,other
+t182,Just saying thanks to the support team,billing,other,other
+t183,Two-factor codes aren't arriving,account,account,account
+t184,Why did my price go up?,other,billing,billing
+t185,Add a way to bulk-edit tags,feature_request,feature_request,feature request
+t186,Just saying thanks to the support team,account,OTHER,other
+t187,Export to CSV does nothing,bug,bug,bug
+t188,Billing page throws a 500 when I try to update my card,bug,other,bug
+t189,Notifications arrive twice,bug,bug,bug
+t190,Notifications arrive twice,bug,bug,bug
+t191,Just saying thanks to the support team,other,other,other
+t192,Love the new design!,other,other,other
+t193,Notifications arrive twice,bug,bug,bug
+t194,I can't log in after resetting my password,account,account,account
+t195,My invoice shows the wrong VAT number,billing,billing,other
+t196,Transfer ownership of my workspace,account,account,account
+t197,Add a way to bulk-edit tags,feature_request,feature_request,feature_request
+t198,Are you hiring?,other,other,other
+t199,Export to CSV does nothing,bug,bug,bug
+t200,Search returns results from deleted projects,bug,bug,bug
+t201,My invoice shows the wrong VAT number,billing,billing,billing
+t202,I can't log in after resetting my password,account,account,account
+t203,Notifications arrive twice,bug,bug,bug
+t204,Where is your office located?,other,other,other
+t205,Notifications arrive twice,bug,bug,billing
+t206,My invoice shows the wrong VAT number,billing,,billing
+t207,I was charged twice this month,billing,billing,billing
+t208,Why did my price go up?,billing,billing,billing
+t209,Could the API return more than 100 items?,feature_request,feature_request,feature_request
+t210,My invoice shows the wrong VAT number,billing,billing,billing
+t211,Search returns results from deleted projects,bug,bug,bug
+t212,I was charged twice this month,account,other,billing
+t213,The card on file was declined but I was still charged,billing,billing,billing
+t214,How do I add a teammate?,account,account,account
+t215,Can you support SSO with Okta?,feature_request,feature_request,feature_request
+t216,The dashboard chart is blank since the update,bug,bug,feature_request
+t217,Can I get a refund for my annual plan?,billing,billing,billing
+t218,Dark mode text is unreadable on Safari,bug,bug,bug
+t219,Let me export reports as PDF,feature_request,feature_request,
+t220,Please delete my account,billing,account,account
+t221,Search returns results from deleted projects,bug,bug,bug
+t222,The dashboard chart is blank since the update,feature_request,bug,bug
+t223,Export to CSV does nothing,bug,bug,bug
+t224,Love the new design!,account,other,other
+t225,Notifications arrive twice,feature_request,bug,bug
+t226,Where is your office located?,other,other,other
+t227,Can I get a refund for my annual plan?,billing,billing,billing
+t228,Can you support SSO with Okta?,other,feature_request,feature_request
+t229,Need a receipt for March,billing,billing,Billing 
+t230,App crashes when I upload a PNG,account,bug,feature_request
+t231,App crashes when I upload a PNG,bug,bug,account
+t232,Is there a student discount?,other,other,other
+t233,Dark mode text is unreadable on Safari,bug,bug,bug
+t234,I can't log in after resetting my password,account,account,account
+t235,How do I change my email address?,account,account,feature_request
+t236,The dashboard chart is blank since the update,bug,bug,bug
+t237,Let me export reports as PDF,other,feature_request,feature_request
+t238,Just saying thanks to the support team,account,other,other
+t239,Notifications arrive twice,bug,bug,bug
+t240,Love the new design!,other,other,other
+t241,Notifications arrive twice,bug,bug,bug
+t242,Dark mode text is unreadable on Safari,bug,account,bug
+t243,Search returns results from deleted projects,bug,bug,bug
+t244,Are you hiring?,other,other,other
+t245,The dashboard chart is blank since the update,bug,bug,bug
+t246,Just saying thanks to the support team,other,other,other
+t247,How do I change my email address?,account,account,account
+t248,Billing page throws a 500 when I try to update my card,feature_request,bug,bug
+t249,I can't log in after resetting my password,account,account,account
+t250,Search returns results from deleted projects,bug,bug,bug
+t251,Can I get a refund for my annual plan?,billing,,billing
+t252,Need a receipt for March,account,billing,bug
+t253,Search returns results from deleted projects,feature_request,bug,Bug
+t254,Transfer ownership of my workspace,account,account,account
+t255,Why did my price go up?,feature_request,billing,billing
+t256,Need a receipt for March,billing,billing,billing
+t257,How do I add a teammate?,account,account,account
+t258,Dark mode text is unreadable on Safari,bug,bug,bug
+t259,Let me export reports as PDF,feature_request,feature_request,feature_request
+t260,App crashes when I upload a PNG,bug,bug,feature_request
+t261,I was charged twice this month,other,billing,account
+t262,Who should I talk to about a partnership?,other,other,other
+t263,The card on file was declined but I was still charged,billing,billing,billing
+t264,How do I add a teammate?,account,account,account
+t265,Love the new design!,other,other,other
+t266,Why did my price go up?,billing,billing,billing
+t267,App crashes when I upload a PNG,bug,,bug
+t268,App crashes when I upload a PNG,bug,bug,bug
+t269,Notifications arrive twice,bug,bug,bug
+t270,The dashboard chart is blank since the update,bug,bug,bug
+t271,Two-factor codes aren't arriving,account,billing,account
+t272,App crashes when I upload a PNG,feature_request,bug,bug
+t273,Notifications arrive twice,bug,bug,bug
+t274,Dark mode text is unreadable on Safari,bug,bug,bug
+t275,Is there a student discount?,other,other,other
+t276,My invoice shows the wrong VAT number,billing,billing,billing
+t277,I was charged twice this month,billing,billing,billing
+t278,Please add a Slack integration,other,feature_request,feature_request
+t279,Search returns results from deleted projects,bug,bug,bug
+t280,Need a receipt for March,billing,billing,billing
+t281,Where is your office located?,other,other,other
+t282,Let me export reports as PDF,feature_request,feature_request,bug
+t283,I can't log in after resetting my password,account,billing,account
+t284,Please add a Slack integration,feature_request,feature_request,feature_request
+t285,Is there a student discount?,other,other,other
+t286,Search returns results from deleted projects,feature_request,bug,bug
+t287,Dark mode text is unreadable on Safari,bug,bug,feature_request
+t288,Is there a student discount?,other,other,other
+t289,The dashboard chart is blank since the update,bug,bug,bug
+t290,How do I change my email address?,account,account,account
+t291,Search returns results from deleted projects,feature_request,bug,bug
+t292,How do I change my email address?,account,account,account
+t293,I can't log in after resetting my password,account,account,account
+t294,Export to CSV does nothing,bug,bug,bug
+t295,Two-factor codes aren't arriving,account,account,feature request
+t296,Transfer ownership of my workspace,account,account,bug
+t297,Could the API return more than 100 items?,other,feature_request,bug
+t298,Need a receipt for March,billing,billing,billing
+t299,Notifications arrive twice,bug,bug,bug
+t300,Transfer ownership of my workspace,account,account,account

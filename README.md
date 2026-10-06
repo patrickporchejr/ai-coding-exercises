@@ -2,11 +2,11 @@
 
 Hands-on practice for AI engineering interviews. Each exercise is written like a real interview question. You build the solution from scratch, then answer debrief questions the way you would in the room.
 
-**Who it's for:** engineers preparing for interviews that involve LLMs, such as building evals, working with the Claude API, or general backend and data problems that come up alongside them.
+**Who it's for:** engineers preparing for interviews that involve LLMs, such as building evals or handling model output, plus the backend and data problems that come up alongside them.
 
 **What's here:**
 - **An eval track** (exercises 1–3): build a prompt-evaluation pipeline in Python three times, with progressively less help.
-- **Standalone drills** (exercises 4+): shorter problems on databases and data handling.
+- **Drills** (exercises 4–10): standalone problems on reliability, databases, data cleaning, and the metrics and validation work that surround LLM systems.
 
 ## Exercises
 
@@ -14,9 +14,9 @@ Hands-on practice for AI engineering interviews. Each exercise is written like a
 
 | # | Exercise | Mode | Time box |
 |---|----------|------|----------|
-| 1 | [Support-ticket triage](exercises/01-guided/PROMPT.md) | **Guided**: docs, the cheatsheet, and AI help are all allowed. Go slowly and understand each piece. | none (aim for 2–3h) |
-| 2 | [Text-to-SQL](exercises/02-timed-no-ai/PROMPT.md) | **Timed, no AI**: official docs only. No AI assistants, and no copying from exercise 1. | **60 min** |
-| 3 | [Meeting action items](exercises/03-timed-with-ai/PROMPT.md) | **Timed, with AI**: use any AI tool. The bar is higher. | **60 min** |
+| 1 | [Support-ticket triage](exercises/01-eval-ticket-triage/PROMPT.md) | **Guided**: docs, the cheatsheet, and AI help are all allowed. Go slowly and understand each piece. | none (aim for 2–3h) |
+| 2 | [Text-to-SQL](exercises/02-eval-text-to-sql/PROMPT.md) | **Timed, no AI**: official docs only. No AI assistants, and no copying from exercise 1. | **60 min** |
+| 3 | [Meeting action items](exercises/03-eval-action-items/PROMPT.md) | **Timed, with AI**: use any AI tool. The bar is higher. | **60 min** |
 
 Read only the prompt you're working on. Don't look at exercises 2 or 3 until you sit down to do them.
 
@@ -26,13 +26,20 @@ Read only the prompt you're working on. Don't look at exercises 2 or 3 until you
 |---|----------|--------|-------|
 | 4 | [Contention: auction bids](exercises/04-contention/PROMPT.md) | Race conditions, row locking, optimistic concurrency, isolation levels, deadlocks | Docker |
 | 5 | [Clean a messy CSV](exercises/05-messy-csv/PROMPT.md) | Parsing, normalization, edge cases, explaining your choices | Python |
+| 6 | [Paginated API client with retries](exercises/06-paginated-api-client/PROMPT.md) | Reliability, `asyncio`, backoff, error handling | Python (fake API included) |
+| 7 | [Join and deduplicate two sources](exercises/07-join-dedupe/PROMPT.md) | Fuzzy matching, conflict rules, flagging uncertainty instead of guessing | Python |
+| 8 | [Parse and validate LLM output](exercises/08-validate-llm-output/PROMPT.md) | Structured outputs, schema validation, failure routing | Python |
+| 9 | [Triage an error export](exercises/09-error-triage/PROMPT.md) | Grouping, aggregation, streaming large files, prioritization | Python (data generator included) |
+| 10 | [Compute eval metrics from labeled data](exercises/10-eval-metrics/PROMPT.md) | Precision, recall, F1 and Cohen's kappa from scratch; label disagreement | Python |
+
+Some drills ship with a helper script (a fake server or a data generator). Treat it as a black box: run it, but don't read its source until you're done, because it contains the answer.
 
 ## How to use this repo
 
 1. **Get your own copy.** Click **Use this template** to create your own repo. Make it private if you don't want your answers public. You can also just clone it.
 2. **Set up** (see below).
 3. **Work in the exercise's `answers/` folder.** On `main`, `.gitignore` excludes everything in `answers/`, so your solutions don't end up in a pull request by accident. To keep your work in git, use a separate branch and remove that rule there.
-4. **Track your progress** in `LOG.md` and score yourself with [`reference/rubric.md`](reference/rubric.md).
+4. **Track your progress** in `LOG.md` and score the eval track with [`reference/rubric.md`](reference/rubric.md).
 
 ## Setup
 
@@ -42,7 +49,7 @@ uv pip install -r requirements.txt
 cp .env.example .env   # add your ANTHROPIC_API_KEY
 ```
 
-Exercises 1–3 call the Claude API, so you need an [Anthropic API key](https://platform.claude.com/). Exercise 4 needs Docker.
+Exercises 1–3 call the Claude API, so you need an [Anthropic API key](https://platform.claude.com/). Exercise 4 needs Docker. The other drills need only Python.
 
 ## The eval workflow (exercises 1–3)
 
@@ -74,7 +81,7 @@ The course gets JSON out of Claude by **prefilling** the assistant turn with `` 
 Each exercise is a folder in `exercises/` named `NN-short-name/` and contains:
 - `PROMPT.md`: the interview prompt, requirements or deliverables, and debrief questions. No solutions.
 - `answers/.gitkeep`: an empty folder where people put their work.
-- Any starter files an interviewer would hand you (schemas, sample data, a `docker-compose.yml`).
+- Any starter files an interviewer would hand you (schemas, sample data, a fake server, a `docker-compose.yml`). Don't commit an answer key. If data has to be generated, either commit only the generated output or say clearly that the generator shouldn't be read.
 
 Then add a row to the right table above. Pull requests with new exercises are welcome.
 

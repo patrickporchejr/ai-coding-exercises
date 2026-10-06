@@ -1,0 +1,50 @@
+{"id": "resp_001", "raw": "{\"sentiment\": \"positive\", \"rating\": 5, \"topics\": [\"battery\", \"display\"], \"summary\": \"Battery lasts two days and the screen is bright outdoors.\"}\n\nLet me know if you'd like any changes."}
+{"id": "resp_002", "raw": "Sure! Here's the JSON you asked for:\n\n{\n  \"sentiment\": \"negative\",\n  \"rating\": 1,\n  \"topics\": [\n    \"shipping\",\n    \"packaging\"\n  ],\n  \"summary\": \"Arrived a week late in a crushed box.\"\n}"}
+{"id": "resp_003", "raw": "```json\n{\n  \"sentiment\": \"neutral\",\n  \"rating\": 3,\n  \"topics\": [\n    \"price\"\n  ],\n  \"summary\": \"Works as described but feels overpriced for what it is.\"\n}\n```"}
+{"id": "resp_004", "raw": "{\"sentiment\": \"positive\", \"rating\": 4, \"topics\": [\"comfort\", \"sound\"], \"summary\": \"Comfortable for long sessions; bass could be stronger.\"}"}
+{"id": "resp_005", "raw": "{\"sentiment\": \"negative\", \"rating\": 2, \"topics\": [\"customer service\"], \"summary\": \"Support took five days to answer a simple question.\"}"}
+{"id": "resp_006", "raw": "{\n  \"sentiment\": \"positive\",\n  \"rating\": 5,\n  \"topics\": [\n    \"setup\",\n    \"app\"\n  ],\n  \"summary\": \"Setup took tw"}
+{"id": "resp_007", "raw": "{\"sentiment\": \"negative\", \"rating\": 1, \"topics\": [\"durability\"], \"summary\": \"Hinge cracked after three weeks of normal use.\"}\n\nLet me know if you'd like any changes."}
+{"id": "resp_008", "raw": "{\"sentiment\": \"neutral\", \"rating\": 3, \"topics\": [\"size\", \"fit\"], \"summary\": \"Runs half a size small; otherwise fine.\"}"}
+{"id": "resp_009", "raw": "{\n  \"sentiment\": \"positive\",\n  \"rating\": 4,\n  \"topics\": [\n    \"camera\"\n  ],\n  \"summary\": \"Great photos in daylight, noisy at night.\",\n}"}
+{"id": "resp_010", "raw": "```json\n{\n  \"sentiment\": \"negative\",\n  \"rating\": 2,\n  \"topics\": [\n    \"software\",\n    \"updates\"\n  ],\n  \"summary\": \"Last update broke Bluetooth pairing.\"\n}\n```"}
+{"id": "resp_011", "raw": "{'sentiment': 'positive', 'rating': 5, 'topics': ['battery', 'display'], 'summary': 'Battery lasts two days and the screen is bright outdoors.'}"}
+{"id": "resp_012", "raw": "```\n{\"sentiment\": \"negative\", \"rating\": 1, \"topics\": [\"shipping\", \"packaging\"], \"summary\": \"Arrived a week late in a crushed box.\"}\n```"}
+{"id": "resp_013", "raw": "{\"sentiment\": \"neutral\", \"rating\": 3, \"topics\": [\"price\"], \"summary\": \"Works as described but feels overpriced for what it is.\"}"}
+{"id": "resp_014", "raw": "{\"sentiment\": \"positive\", \"rating\": 4, \"topics\": [\"comfort\", \"sound\"], \"summary\": \"Comfortable for long sessions; bass could be stronger.\"}"}
+{"id": "resp_015", "raw": "{\"sentiment\": \"mixed\", \"rating\": 2, \"topics\": [\"customer service\"], \"summary\": \"Support took five days to answer a simple question.\"}"}
+{"id": "resp_016", "raw": "{\"sentiment\": \"POSITIVE\", \"rating\": 5, \"topics\": [\"setup\", \"app\"], \"summary\": \"Setup took two minutes and the app is intuitive.\"}"}
+{"id": "resp_017", "raw": "{\"sentiment\": \"negative\", \"rating\": 1, \"topics\": [\"durability\"], \"summary\": \"Hinge cracked after three weeks of normal use.\"}"}
+{"id": "resp_018", "raw": "Sure! Here's the JSON you asked for:\n\n{\n  \"sentiment\": \"neutral\",\n  \"rating\": 3,\n  \"topics\": [\n    \"size\",\n    \"fit\"\n  ],\n  \"summary\": \"Runs half a size small; otherwise fine.\"\n}"}
+{"id": "resp_019", "raw": "{\"sentiment\": \"positive\", \"rating\": 3.5, \"topics\": [\"camera\"], \"summary\": \"Great photos in daylight, noisy at night.\"}"}
+{"id": "resp_020", "raw": "{\"sentiment\": \"negative\", \"rating\": 2, \"topics\": [\"software\", \"updates\"], \"summary\": \"Last update broke Bluetooth pairing.\"}"}
+{"id": "resp_021", "raw": "{\"sentiment\": \"positive\", \"topics\": [\"battery\", \"display\"], \"summary\": \"Battery lasts two days and the screen is bright outdoors.\"}"}
+{"id": "resp_022", "raw": "```json\n{\n  \"sentiment\": \"negative\",\n  \"rating\": 1,\n  \"topics\": [\n    \"shipping\",\n    \"packaging\"\n  ],\n  \"summary\": \"Arrived a week late in a crushed box.\"\n}\n```"}
+{"id": "resp_023", "raw": "{\"sentiment\": \"neutral\", \"rating\": \"3\", \"topics\": [\"price\"], \"summary\": \"Works as described but feels overpriced for what it is.\"}"}
+{"id": "resp_024", "raw": "{\"result\": {\"sentiment\": \"positive\", \"rating\": 4, \"topics\": [\"comfort\", \"sound\"], \"summary\": \"Comfortable for long sessions; bass could be stronger.\"}}"}
+{"id": "resp_025", "raw": "{\"sentiment\": \"negative\", \"rating\": 2, \"topics\": [\"customer service\"]}"}
+{"id": "resp_026", "raw": "{\n  \"sentiment\": \"positive\",\n  \"rating\": 5,\n  \"topics\": [\n    \"setup\",\n    \"app\"\n  ],\n  \"summary\": \"Setup took two minutes and the app is intuitive.\",\n}"}
+{"id": "resp_027", "raw": "{\n  \"sentiment\": \"negative\",\n  \"rating\": 1,\n  \"topics\": [\n    \"durability\"\n  ],\n  \"summary\": \"Hinge cracked after three weeks of normal use.\",\n}"}
+{"id": "resp_028", "raw": "```\n{\"sentiment\": \"neutral\", \"rating\": 3, \"topics\": [\"size\", \"fit\"], \"summary\": \"Runs half a size small; otherwise fine.\"}\n```"}
+{"id": "resp_029", "raw": "Sure! Here's the JSON you asked for:\n\n{\n  \"sentiment\": \"positive\",\n  \"rating\": 4,\n  \"topics\": [\n    \"camera\"\n  ],\n  \"summary\": \"Great photos in daylight, noisy at night.\"\n}"}
+{"id": "resp_030", "raw": "{\"sentiment\": \"negative\", \"rating\": 2, \"topics\": [\"software\", \"updates\"]}"}
+{"id": "resp_031", "raw": ""}
+{"id": "resp_032", "raw": "{\"sentiment\": \"negative\", \"rating\": 8, \"topics\": [\"shipping\", \"packaging\"], \"summary\": \"Arrived a week late in a crushed box.\"}"}
+{"id": "resp_033", "raw": "{'sentiment': 'neutral', 'rating': 3, 'topics': ['price'], 'summary': 'Works as described but feels overpriced for what it is.'}"}
+{"id": "resp_034", "raw": "{\"sentiment\": \"positive\", \"rating\": 4, \"topics\": [\"comfort\", \"sound\"], \"summary\": \"Comfortable for long sessions; bass could be stronger.\", \"confidence\": 0.92}"}
+{"id": "resp_035", "raw": "{\n  \"sentiment\": \"negative\",\n  \"rating\": 2,\n  \"topics\": [\n    \"customer service\"\n  ],\n  \"summary\": \"Support took five days to answer a simple question.\"\n}"}
+{"id": "resp_036", "raw": "{\"sentiment\": \"positive\", \"rating\": 5, \"topics\": [\"setup\", \"app\"], \"summary\": null}"}
+{"id": "resp_037", "raw": "I'm sorry, but I can't analyze this review because the text appears to be missing."}
+{"id": "resp_038", "raw": "{\"sentiment\": \"neutral\", \"rating\": 3, \"topics\": [\"size\", \"fit\"], \"summary\": \"Runs half a size small; otherwise fine.\"}"}
+{"id": "resp_039", "raw": "Here is the analysis:\n```json\n{\n  \"sentiment\": \"positive\",\n  \"rating\": 4,\n  \"topics\": [\n    \"camera\"\n  ],\n  \"summary\": \"Great photos in daylight, noisy at night.\"\n}\n```\nThe review is mostly about camera."}
+{"id": "resp_040", "raw": "{\"sentiment\": \"NEGATIVE\", \"rating\": 2, \"topics\": [\"software\", \"updates\"], \"summary\": \"Last update broke Bluetooth pairing.\"}"}
+{"id": "resp_041", "raw": "{\"sentiment\": \"positive\", \"rating\": 5, \"topics\": [\"battery\", \"display\"], \"summary\": \"Battery lasts two days and the screen is bright outdoors.\"}"}
+{"id": "resp_042", "raw": "{\"sentiment\": \"negative\", \"rating\": \"1\", \"topics\": [\"shipping\", \"packaging\"], \"summary\": \"Arrived a week late in a crushed box.\"}"}
+{"id": "resp_043", "raw": "{\"sentiment\": \"neutral\", \"rating\": 3, \"topics\": [\"price\"], \"summary\": \"Works as described but feels overpriced for what it is.\"}"}
+{"id": "resp_044", "raw": "{\"sentiment\": \"positive\", \"rating\": 4, \"topics\": [\"comfort\", \"sound\"], \"summary\": \"Comfortable for long sessions; bass could be stronger.\"}"}
+{"id": "resp_045", "raw": "{\n  \"sentiment\": \"negative\",\n  \"rating\": 2,\n  \"topics\": [\n    \"customer service\"\n  ],\n  \"summary\": \"Support took five days to answer a simple question.\"\n}"}
+{"id": "resp_046", "raw": "{\n  \"sentiment\": \"positive\",\n  \"rating\": 5,\n  \"topics\": [\n    \"setup\",\n    \"app\"\n  ],\n  \"summary\": \"Setup took two minutes and the app is intuitive.\"\n}"}
+{"id": "resp_047", "raw": "```json\n{\n  \"sentiment\": \"negative\",\n  \"rating\": 1,\n  \"topics\": [\n    \"durability\"\n  ],\n  \"summary\": \"Hinge cracked after three weeks of normal use.\"\n}\n```"}
+{"id": "resp_048", "raw": "{\"sentiment\": \"neutral\", \"rating\": 3, \"topics\": [\"size\", \"fit\"], \"summary\": \"Runs half a size small; otherwise fine.\"}"}
+{"id": "resp_049", "raw": "{\"sentiment\": \"positive\", \"rating\": 4, \"topics\": [\"camera\"], \"summary\": \"Great photos in daylight, noisy at night.\"}"}
+{"id": "resp_050", "raw": "{\"sentiment\": \"negative\", \"rating\": 2, \"topics\": \"software, updates\", \"summary\": \"Last update broke Bluetooth pairing.\"}"}

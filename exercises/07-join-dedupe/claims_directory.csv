@@ -1,0 +1,19 @@
+npi,first_name,last_name,specialty,phone,practice_address,updated_at
+1407853921,Maria,Garcia,Cardiology,4155550142,"1200 Market Street, Ste 300, San Francisco, CA",2025-06-10
+1932716458,Bob,Chen,Family Practice,4155550199,"88 Oak St, Oakland, CA",2026-03-01
+1847261930,Priya,Raman,Dermatology,2125550108,"455 Park Avenue, New York, NY",2025-12-12
+1659034217,James,Lee,Orthopaedics,6175550133,"25 Beacon Street, Boston, MA",2026-01-09
+,James,Lee,Internal Medicine,7735550102,"5841 S Maryland Ave, Chicago, IL",2026-02-20
+1295873046,Aisha,Okafor,Internal Medicine,3125550161,"200 West Madison Street, Chicago, IL",2026-01-04
+1548902731,Jonh,Whitfield,Neurology,2065550120,"1101 Madison Street, Seattle, WA",2025-10-15
+1376420985,Elizabeth,Novak-Reyes,Psychiatry,7205550110,"2400 E 17th Ave, Aurora, CO",2026-02-25
+,Tom,OBrien,Gastroenterology,6175550188,"75 Francis Street, Boston, MA",2025-09-08
+1823749106,Sofia,Rossi,OB/GYN,3055550112,"1611 NW 12th Avenue, Miami, FL",2026-02-14
+1063958247,Daniel,Kim,Anesthesiology,2135550147,"1500 San Pablo Street, Los Angeles, CA",2025-12-20
+1714385920,Fatima,Haddad,Endocrinology,7135550199,"6565 Fannin Street, Houston, TX",2026-03-05
+,Michael,Brennan,Radiology,2155550139,"3400 Spruce St, Philadelphia, PA",2026-01-17
+,Katherine,Nguyen,Family Medicine,4085550191,"751 South Bascom Avenue, San Jose, CA",2026-02-08
+1187264593,Grace,Adeyemi,Hematology/Oncology,4045550126,"1365 Clifton Road NE, Atlanta, GA",2026-01-11
+1266390481,Ravi,Shankar,Cardiology,9725550144,"8200 Walnut Hill Ln, Dallas, TX",2026-02-03
+1355820764,Hannah,Schultz,Pulmonology,6125550158,"420 Delaware Street SE, Minneapolis, MN",2026-02-15
+1938475601,Luis,Fernandes,Nephrology,6025550171,"1111 East McDowell Road, Phoenix, AZ",2025-10-02
