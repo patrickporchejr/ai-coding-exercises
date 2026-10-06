@@ -35,5 +35,6 @@
 - Your judge agreed with you 80% of the time. Is that good enough to use? What would you need to see first?
 - If you had only run each prompt once, would you have reached the same conclusion?
 - v2 improved precision but hurt recall (or the reverse). How do you decide which matters more for this product?
+- Which of v2's rules actually changed the output, and which had no effect? What does that tell you about how v2 was written, and about how to write v3?
 - Which parts did AI write for you, and what did you have to correct?
 - With twice the time, what would you add first: more transcripts, more runs, or a better judge? Why?
