@@ -12,6 +12,7 @@
 ## Provided (you don't build these)
 - **`transcripts.jsonl`**: 12 meeting transcripts, each with `gold_action_items` (a list of `owner`, `task`, `due`).
 - **`prompts.md`**: the v1 and v2 prompts and the output schema. Use them exactly as written.
+- These were checked with Claude Opus 5.5, so run both prompts on Opus 5.5. Other models make different mistakes, and the comparison would change.
 
 ## Requirements
 

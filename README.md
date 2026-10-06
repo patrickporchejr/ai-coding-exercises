@@ -53,6 +53,34 @@ cp .env.example .env   # add your ANTHROPIC_API_KEY
 
 Exercises 1–3, 11 and 12 call the Claude API, so you need an [Anthropic API key](https://platform.claude.com/). Exercise 4 needs Docker. The other drills need only Python.
 
+## Models and cost
+
+Following the Anthropic Academy course:
+
+| Job | Model | Price per million tokens (input / output) |
+|---|---|---|
+| Prompts under test and LLM judges | Claude Opus 5.5 (`claude-opus-5-5`) | $4 / $20 |
+| Generating test datasets | Claude Haiku 4.5 (`claude-haiku-4-5`) | $1 / $5 |
+
+Generation is cheap work that you review by hand anyway. Grading and the prompt under test are where accuracy matters, so they get the strongest model.
+
+Rough spend to work through the repo, assuming default settings, the dataset sizes given, and about 10 runs per exercise while you debug:
+
+| Exercise | One full run | While learning |
+|---|---|---|
+| 1. Ticket triage | ~$0.50 | $3–8 |
+| 2. Text-to-SQL | ~$0.20 | $1–3 |
+| 3. Trust your eval (both prompts × 3 runs, plus the judge) | ~$1.50 | $4–8 |
+| 11. RAG | ~$0.60 | $3–6 |
+| 12. Tool-use agent (10 tasks) | ~$1.00 | $5–12 |
+| 4–10 | No API calls | $0 |
+| **Total** | | **about $15–40** |
+
+To keep it down:
+- **Develop on 2–3 cases** and run the full set only when the pipeline works.
+- **Save outputs to disk** so you can rerun graders and reports without calling the model again.
+- **Set a monthly spend limit** in the Anthropic Console. A bug in a loop is the usual way bills jump.
+
 ## The eval workflow (exercises 1–3)
 
 The eval track follows the loop from Anthropic Academy's [*A typical eval workflow*](https://academy.claude.com/courses/building-with-the-claude-api/a-typical-eval-workflow) lesson:

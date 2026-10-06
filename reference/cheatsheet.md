@@ -26,12 +26,13 @@ import anthropic
 
 load_dotenv()
 client = anthropic.Anthropic()
-MODEL = "claude-opus-5-5"
+MODEL = "claude-opus-5-5"            # prompt under test and LLM judges
+DATASET_MODEL = "claude-haiku-4-5"   # generating test datasets (cheap; you review the cases anyway)
 
-def chat(prompt: str, system: str | None = None) -> str:
+def chat(prompt: str, system: str | None = None, model: str = MODEL) -> str:
     kwargs = {"system": system} if system else {}
     resp = client.messages.create(
-        model=MODEL,
+        model=model,
         max_tokens=4000,
         messages=[{"role": "user", "content": prompt}],
         **kwargs,
@@ -46,6 +47,8 @@ def chat(prompt: str, system: str | None = None) -> str:
 | Prefill `{"role": "assistant", "content": "```json"}` + `stop_sequences=["```"]` | **400 error** | Structured outputs, shown below |
 | `temperature=0` for a deterministic judge | **400 error** on Opus 5.5 (sampling params removed) | Drop it. Use a tight rubric and structured output, and run each case a few times if you need to measure variance |
 | `thinking={"type": "enabled", "budget_tokens": N}` | 400 | `output_config={"effort": "low" \| "medium" \| "high"}`. Opus 5.5 defaults to `medium` |
+
+"Current models" means Opus and Sonnet 4.6 and later, and all Claude 5 models. **Haiku 4.5 follows the older rules**: it still accepts prefill, `temperature`, and `budget_tokens`. Use structured outputs with both models anyway, so the same code works whichever model you call.
 
 ## Structured outputs (replaces prefill)
 
@@ -67,7 +70,7 @@ resp = client.messages.parse(
 grade: Grade = resp.parsed_output
 ```
 
-The same pattern generates the dataset. Define `class TestCase(BaseModel)` and `class Dataset(BaseModel): cases: list[TestCase]`, then parse into `Dataset`.
+The same pattern generates the dataset, with `model=DATASET_MODEL`. Define `class TestCase(BaseModel)` and `class Dataset(BaseModel): cases: list[TestCase]`, then parse into `Dataset`.
 
 ## Model-grader prompt skeleton
 
