@@ -1,0 +1,20 @@
+{"id": "q01", "question": "How much does the Team plan cost per user for a new customer signing up in August 2026?", "gold_docs": ["pricing-update-2026"], "reference_answer": "$10 per user per month (the price changed from $8 on July 1, 2026)."}
+{"id": "q02", "question": "I'm on a monthly plan. Can I get a refund if I cancel?", "gold_docs": ["refunds"], "reference_answer": "No. Monthly plans aren't refundable; you keep access until the end of the paid period."}
+{"id": "q03", "question": "Can we use SSO on the Team plan?", "gold_docs": ["sso-setup", "plans-and-pricing"], "reference_answer": "No. SSO is only available on the Business plan."}
+{"id": "q04", "question": "Which identity providers are officially supported for SSO?", "gold_docs": ["sso-setup"], "reference_answer": "Okta, Microsoft Entra ID (formerly Azure AD), and Google Workspace."}
+{"id": "q05", "question": "Can I get my two-factor codes by text message?", "gold_docs": ["two-factor"], "reference_answer": "No. SMS 2FA was removed in August 2025; use an authenticator app (TOTP)."}
+{"id": "q06", "question": "How long do I have to download a data export?", "gold_docs": ["data-export"], "reference_answer": "7 days. Export download links expire after 7 days."}
+{"id": "q07", "question": "What is the API rate limit on the Business plan?", "gold_docs": ["api-rate-limits"], "reference_answer": "600 requests per minute per API token."}
+{"id": "q08", "question": "How often does Tidepool sync with Google Calendar?", "gold_docs": ["integrations-google-calendar"], "reference_answer": "Every 5 minutes."}
+{"id": "q09", "question": "We accidentally deleted our workspace two weeks ago. Can it be recovered?", "gold_docs": ["data-retention"], "reference_answer": "Yes. Deleted workspaces are recoverable for 30 days; the owner can contact support to restore it."}
+{"id": "q10", "question": "Where is EU customer data stored?", "gold_docs": ["data-retention"], "reference_answer": "In Frankfurt, Germany (EU data residency, Business plan)."}
+{"id": "q11", "question": "I own our workspace. How do I delete my account?", "gold_docs": ["account-deletion"], "reference_answer": "First transfer ownership to another admin or delete the workspace; then delete your account."}
+{"id": "q12", "question": "Auto-approve is on for our schedule. Does a swap for a shift starting tomorrow still need a manager?", "gold_docs": ["shift-swaps"], "reference_answer": "Yes. Swaps for shifts starting within 48 hours always need manager approval, even with auto-approve on."}
+{"id": "q13", "question": "Our Business workspace had 99.7% uptime last month. What service credit do we get?", "gold_docs": ["uptime-sla"], "reference_answer": "20% of that month's fee (10% for each full 0.1% below 99.9%)."}
+{"id": "q14", "question": "How is data encrypted at rest?", "gold_docs": ["security-overview"], "reference_answer": "With AES-256."}
+{"id": "q15", "question": "Can I clock in from the mobile app without an internet connection?", "gold_docs": ["mobile-app"], "reference_answer": "No. Offline mode is view-only; you can't clock in until you're back online."}
+{"id": "q16", "question": "We're on Business. What's our API rate limit, and can our identity provider deactivate users automatically?", "gold_docs": ["api-rate-limits", "sso-setup"], "reference_answer": "600 requests per minute per token, and yes: SCIM provisioning (Business) can deactivate users automatically."}
+{"id": "q17", "question": "How many hours of unused time off carry over into the next year?", "gold_docs": ["time-off"], "reference_answer": "Up to 40 hours, unless an admin raises the cap."}
+{"id": "q18", "question": "Does Tidepool integrate with Microsoft Teams?", "gold_docs": [], "reference_answer": "Not answerable from the documentation. Only Slack and Google Calendar integrations are documented."}
+{"id": "q19", "question": "How much does the Enterprise plan cost?", "gold_docs": [], "reference_answer": "Not answerable from the documentation. There is no Enterprise plan in the docs."}
+{"id": "q20", "question": "Who is Tidepool's CEO?", "gold_docs": [], "reference_answer": "Not answerable from the documentation."}
