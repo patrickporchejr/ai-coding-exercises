@@ -28,7 +28,7 @@ import anthropic
 load_dotenv()
 client = anthropic.Anthropic()
 # Set in .env. See "Models and cost" in the README.
-MODEL = os.getenv("MODEL", "claude-opus-5-5")                    # prompt under test
+MODEL = os.getenv("MODEL", "claude-sonnet-5-5")                  # prompt under test
 JUDGE_MODEL = os.getenv("JUDGE_MODEL", "claude-opus-5-5")        # LLM judges
 DATASET_MODEL = os.getenv("DATASET_MODEL", "claude-haiku-4-5")   # generating test datasets
 
