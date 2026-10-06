@@ -6,7 +6,7 @@ Hands-on practice for AI engineering interviews. Each exercise is written like a
 
 **What's here:**
 - **An eval track** (exercises 1–3): build a prompt-evaluation pipeline in Python three times, with progressively less help.
-- **Drills** (exercises 4–11): standalone problems on reliability, databases, data cleaning, RAG, and the metrics and validation work that surround LLM systems.
+- **Drills** (exercises 4–12): standalone problems on reliability, databases, data cleaning, RAG, tool-use agents, and the metrics and validation work that surround LLM systems.
 
 ## Exercises
 
@@ -32,6 +32,7 @@ Read only the prompt you're working on. Don't look at exercises 2 or 3 until you
 | 9 | [Triage an error export](exercises/09-error-triage/PROMPT.md) | Grouping, aggregation, streaming large files, prioritization | Python (data generator included) |
 | 10 | [Compute eval metrics from labeled data](exercises/10-eval-metrics/PROMPT.md) | Precision, recall, F1 and Cohen's kappa from scratch; label disagreement | Python |
 | 11 | [RAG over a help center](exercises/11-rag-qa/PROMPT.md) | Chunking, retrieval, grounded answers with citations, recall@k and faithfulness evals. Best done after the eval track. | API key |
+| 12 | [Tool-use agent](exercises/12-tool-use-agent/PROMPT.md) | Tool definitions, a hand-written agent loop, tool errors, guarding write actions, end-state evals | API key (fake backend included) |
 
 Some drills ship with a helper script (a fake server or a data generator). Treat it as a black box: run it, but don't read its source until you're done, because it contains the answer.
 
@@ -50,7 +51,7 @@ uv pip install -r requirements.txt
 cp .env.example .env   # add your ANTHROPIC_API_KEY
 ```
 
-Exercises 1–3 and 11 call the Claude API, so you need an [Anthropic API key](https://platform.claude.com/). Exercise 4 needs Docker. The other drills need only Python.
+Exercises 1–3, 11 and 12 call the Claude API, so you need an [Anthropic API key](https://platform.claude.com/). Exercise 4 needs Docker. The other drills need only Python.
 
 ## The eval workflow (exercises 1–3)
 
