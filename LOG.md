@@ -33,7 +33,8 @@
 - What I'd memorize before a real interview:
 
 ### Exercise 3
-- What AI sped up:
+- Judge agreement with my labels (before → after fix):
+- Ship v2? My call and why:
 - Where AI led me astray / what I had to correct:
 
 ### Drills

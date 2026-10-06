@@ -5,7 +5,7 @@ Hands-on practice for AI engineering interviews. Each exercise is written like a
 **Who it's for:** engineers preparing for interviews that involve LLMs, such as building evals or handling model output, plus the backend and data problems that come up alongside them.
 
 **What's here:**
-- **An eval track** (exercises 1–3): build a prompt-evaluation pipeline in Python three times, with progressively less help.
+- **An eval track** (exercises 1–3): build a prompt-evaluation pipeline in Python, first guided and then timed without AI, and finally prove your results can be trusted.
 - **Drills** (exercises 4–12): standalone problems on reliability, databases, data cleaning, RAG, tool-use agents, and the metrics and validation work that surround LLM systems.
 
 ## Exercises
@@ -16,7 +16,7 @@ Hands-on practice for AI engineering interviews. Each exercise is written like a
 |---|----------|------|----------|
 | 1 | [Support-ticket triage](exercises/01-eval-ticket-triage/PROMPT.md) | **Guided**: docs, the cheatsheet, and AI help are all allowed. Go slowly and understand each piece. | none (aim for 2–3h) |
 | 2 | [Text-to-SQL](exercises/02-eval-text-to-sql/PROMPT.md) | **Timed, no AI**: official docs only. No AI assistants, and no copying from exercise 1. | **60 min** |
-| 3 | [Meeting action items](exercises/03-eval-action-items/PROMPT.md) | **Timed, with AI**: use any AI tool. The bar is higher. | **60 min** |
+| 3 | [Trust your eval: meeting action items](exercises/03-eval-action-items/PROMPT.md) | **Timed, with AI**: the test set and two prompts are provided. Check the LLM judge against your own labels, then decide whether v2 really beats v1. | **60 min** |
 
 Read only the prompt you're working on. Don't look at exercises 2 or 3 until you sit down to do them.
 
