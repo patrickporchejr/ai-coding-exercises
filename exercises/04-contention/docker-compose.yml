@@ -1,0 +1,11 @@
+services:
+  db:
+    image: postgres:17
+    container_name: contention-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: auction
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql:ro
+      - ./reset.sql:/reset.sql:ro

@@ -1,0 +1,26 @@
+order_id,customer_name,email,country,order_date,amount,status
+1001,Ana Souza,ana@example.com,BR,2025-01-14,$129.00,delivered
+1002,  ben carter ,BEN@Example.com,us,02/03/2025,"$1,240.50",Delivered
+1003,Chloe Martin,chloe@example.com,France,March 22 2025,€189.00,SHIPPED
+1004,DEV PATEL,dev@example.com,IN,2025/04/09,99,shipped
+1005,Emma Schultz,,DE,30-06-2025,€ 45.00,delivered
+1006,Felix Wong,felix@example.com,USA,2025-08-11,USD 65.00,refunded
+1007,grace kim,grace@example.com,KR,11/2/2025,"₩25,000",pending
+1008,Hugo Rossi,hugo@example.com,IT,2026-01-19,,delivered
+1002,  ben carter ,BEN@Example.com,us,02/03/2025,"$1,240.50",Delivered
+1009,Ana Souza,ana@example.com,BR,2025-02-01T10:15:00Z,$24.00,delivered
+1010,Ben Carter,ben@example.com,US,2025-02-15,$189,Delivered
+1011,Chloe Martin,chloe@example.com,FR,,$12.50,delivered
+1012,N/A,unknown@example.com,N/A,2025-07-12,N/A,N/A
+1013,Dev Patel,dev@example.com,India,07/12/2025,$45.00,shipped
+1014, Emma Schultz,emma@example.com ,DE,2025-10-10,"€1.250,00",delivered
+1015,Felix Wong,felix@example.com,US,Dec 24 2025,($30.00),refunded
+1016,Grace Kim,grace@example.com,South Korea,2026-02-14,$0.00,pending
+1017,Hugo Rossi,hugo@example.com,IT,2026-13-01,$75.00,delivered
+1010,Ben Carter,ben@example.com,US,2025-02-15,$189.00,delivered
+1018,,ana@example.com,BR,2026-03-01,$59.99,delivered
+1019,Chloe Martin,chloe@example.com,FR,18.03.2026,EUR 189,returned
+1020,Dev Patel,dev@example.com,IN,2026-03-20,"$12,00",shipped
+1021,Ana Souza,ana@example.com,BR,1742428800,$15.00,delivered
+,Mystery Buyer,mystery@example.com,US,2026-03-22,$10.00,delivered
+1022,Ben Carter,ben@example.com,US,2026-03-25,-$5.00,refunded
