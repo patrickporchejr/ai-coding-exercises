@@ -1,0 +1,15 @@
+member_id,name,phone,plan,signup_date,monthly_fee,active
+0012,Priya Nair,555-201-3344,Premium,2024-01-15,$49.99,yes
+0013,  tom okafor,(555) 201 8890,basic,15 Jan 2024,19.99,Y
+0014,LENA BERG,5552017721,PREMIUM ,2024/02/03,$49.99,true
+0015,Marco Diaz,,Family,2024-02-29,79.00 USD,1
+0016,Sara Lind,555.201.6612,prem,03/04/2024,"$1,049.00",yes
+0013,  tom okafor,(555) 201 8890,basic,15 Jan 2024,19.99,Y
+0017,N/A,N/A,N/A,N/A,N/A,N/A
+0018,Kenji Ito,555-201-4410,basic,2024-02-30,free,no
+0019,Ava Brown,555-201-901,Family,12 Mar 2024,-,
+,Walk-in Guest,555-201-0000,basic,2024-03-20,$19.99,yes
+0020,Omar Haddad,555-201-7788,basic,2024-03-22,$19.99,N
+0020,Omar Haddad,555-201-7788,Basic,2024-03-22,19.99,no
+0021,Ines Costa,555 201 3321,family,2024-04-01,$79,TRUE
+0022,ben ross,555-201-5567,Gold,2024-04-05,$29.99,yes

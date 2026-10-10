@@ -2,6 +2,13 @@
 
 **Skills:** parsing, normalization, edge cases, explaining choices.
 
+## Two phases
+
+1. **Learn** ([`learn/LEARN.md`](learn/LEARN.md)): the Python and pandas you need for this exercise, with drills on a separate practice file. Untimed. Skip it if you already wrangle data in Python.
+2. **Mock interview** ([`mock/MOCK.md`](mock/MOCK.md)): this prompt, 60 minutes, no AI, with Claude playing the interviewer.
+
+Don't open `orders_raw.csv` until Phase 2.
+
 ## The interview prompt
 
 > `orders_raw.csv` is an export of customer orders. It has mixed date formats, inconsistent casing, stray whitespace, missing values, duplicate rows, and numbers stored as text with currency symbols.

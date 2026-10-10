@@ -2,3 +2,4 @@ anthropic
 pydantic
 python-dotenv
 httpx
+pandas
